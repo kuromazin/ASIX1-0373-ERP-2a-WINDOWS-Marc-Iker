@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restauración Odoo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Guía Odoo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="instalacion-maquina.html">Instalación en Máquina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="configuracion-odoo.html">Configuración Odoo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="backup-odoo.html">Backup Odoo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="restauracion-odoo.html">Restauración Odoo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white py-3">
+        <h1 class="text-center">Restauración Odoo</h1>
+    </header>
+
+    <main class="container my-4">
+        <h2 class="text-primary">Pasos para restaurar una base de datos en Odoo</h2>
+        <p>Sigue los pasos detallados a continuación para restaurar una base de datos en Odoo:</p>
+
+        <h3 class="mt-4">1. Restaurar la base de datos</h3>
+        <p>Accede a la ruta correspondiente en Odoo y selecciona la opción "Restore Database". Introduce los parámetros necesarios, incluyendo la <strong>master password</strong>.</p>
+        <img src="../images/restore-database.jpg" alt="Restaurar base de datos" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">2. Confirmar la restauración</h3>
+        <p>Una vez completada la restauración, verifica que la base de datos se ha restaurado correctamente.</p>
+        <img src="../images/base-datos-restaurada.jpg" alt="Base de datos restaurada" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">3. Seleccionar la base de datos restaurada</h3>
+        <p>Accede al "Database Selector" y selecciona la base de datos que acabas de importar.</p>
+        <img src="../images/database-selector.jpg" alt="Selector de base de datos" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">4. Iniciar sesión</h3>
+        <p>Introduce las credenciales correspondientes para acceder a la base de datos restaurada. Una vez dentro, podrás trabajar con normalidad.</p>
+        <img src="../images/iniciar-sesion-restaurada.jpg" alt="Iniciar sesión en base de datos restaurada" class="img-fluid img-hover-zoom rounded shadow">
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Guía de Odoo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

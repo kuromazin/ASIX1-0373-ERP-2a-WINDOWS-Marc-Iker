@@ -31,3 +31,12 @@
     background-color: #343a40 !important; /* Gris oscuro */
     color: #f8f9fa !important; /* Texto blanco */
 }
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.img-hover-zoom:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}

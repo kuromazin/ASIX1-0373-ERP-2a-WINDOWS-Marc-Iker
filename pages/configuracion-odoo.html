@@ -17,19 +17,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="introduccion.html">Introducción</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="instalacion-maquina.html">Instalación en Máquina</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="instalacion-odoo.html">Instalación de Odoo</a>
+                        <a class="nav-link" href="configuracion-odoo.html">Configuración Odoo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="configuracion-odoo.html">Configuración Odoo</a>
+                        <a class="nav-link active" href="backup-odoo.html">Backup Odoo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="backup-odoo.html">Backup Odoo</a>
+                        <a class="nav-link" href="restauracion-odoo.html">Restauración Odoo</a>
                     </li>
                 </ul>
             </div>
@@ -37,11 +34,40 @@
     </nav>
 
     <header class="bg-primary text-white py-3">
-        <h1 class="text-center">Configuración Odoo</h1>
+        <h1 class="text-center">Configuración de Odoo</h1>
     </header>
 
     <main class="container my-4">
-        <p>Guía para configurar Odoo después de la instalación.</p>
+        <h2 class="text-primary">Pasos para configurar un módulo en Odoo</h2>
+        <p>Sigue los pasos detallados a continuación para instalar y activar un módulo en Odoo:</p>
+
+        <h3 class="mt-4">1. Iniciar sesión en Odoo</h3>
+        <p>Abre Odoo en tu navegador y utiliza tus credenciales para iniciar sesión.</p>
+        <img src="../images/iniciar-sesion.jpg" alt="Iniciar sesión en Odoo" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">2. Instalar el módulo CRM</h3>
+        <p>Accede al menú de aplicaciones, busca "CRM" y haz clic en "Instalar".</p>
+        <img src="../images/instalar-crm.jpg" alt="Instalar CRM" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">3. Activar el modo desarrollador</h3>
+        <p>Una vez instalado el CRM, ve a "Ajustes", baja hasta el final de la página y selecciona "Activar modo desarrollador (con activos)".</p>
+        <img src="../images/activar-modo-desarrollador.jpg" alt="Activar modo desarrollador" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">4. Descargar un módulo desde la web de addons</h3>
+        <p>Accede a la web de addons de Odoo, selecciona un módulo y descárgalo en tu equipo.</p>
+        <img src="../images/descargar-modulo.jpg" alt="Descargar módulo" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">5. Copiar el módulo en la carpeta de addons</h3>
+        <p>Extrae el contenido del archivo descargado y copia la carpeta del módulo en la ruta de addons de tu instalación de Odoo.</p>
+        <img src="../images/carpeta-addons.jpg" alt="Carpeta de addons" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">6. Recargar la lista de aplicaciones</h3>
+        <p>En Odoo, ve al menú de aplicaciones y selecciona "Actualizar lista de aplicaciones".</p>
+        <img src="../images/actualizar-lista.jpg" alt="Actualizar lista de aplicaciones" class="img-fluid img-hover-zoom rounded shadow">
+
+        <h3 class="mt-4">7. Activar el módulo</h3>
+        <p>Busca el nombre del módulo en la lista de aplicaciones y haz clic en "Instalar". Una vez instalado, verifica que el módulo funciona correctamente.</p>
+        <img src="../images/activar-modulo.jpg" alt="Activar módulo" class="img-fluid img-hover-zoom rounded shadow">
     </main>
 
     <footer class="bg-dark text-white text-center py-3">
