@@ -1,0 +1,33 @@
+/* Cambiar el color principal de Bootstrap a morado */
+.bg-primary {
+    background-color: #563d7c !important; /* Morado oscuro */
+    border-color: #563d7c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; /* Texto blanco */
+}
+
+.navbar-dark .navbar-brand {
+    color: #f8f9fa !important; /* Texto blanco */
+}
+
+.text-primary {
+    color: #563d7c !important; /* Morado oscuro */
+}
+
+.btn-primary {
+    background-color: #563d7c !important; /* Morado oscuro */
+    border-color: #563d7c !important;
+}
+
+.btn-primary:hover {
+    background-color: #6f4fa1 !important; /* Morado más claro */
+    border-color: #6f4fa1 !important;
+}
+
+.footer {
+    background-color: #343a40 !important; /* Gris oscuro */
+    color: #f8f9fa !important; /* Texto blanco */
+}
